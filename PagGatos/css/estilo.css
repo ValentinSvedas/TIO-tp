@@ -1,0 +1,117 @@
+body {
+  background-image: url(https://images.unsplash.com/photo-1460602594182-8568137446ce?ixlib=rb-0.3.5&s=18fc1281b4d718b12b863cf0dae9340c&auto=format&fit=crop&w=755&q=80) ;
+  background-repeat:no-repeat;
+  background-size:100% 100%;
+}
+.cuerpoentero{
+  display: flex;
+  align-items: flex-start;
+}
+
+.cuerpo {
+  width: 65%;
+  margin: auto;
+  background-color: rgb(198, 190, 123);
+  padding: 15px 15px;
+  border: 4px;
+  border-color: black;
+  border-style: solid;
+  position: relative;
+  margin-top: 50px
+}
+header{
+
+}
+img {
+  width: 250px;
+  height: 400px;
+
+}
+.subcuerpo{
+  display: flex;
+  flex-direction: column;
+}
+
+.gatopedia{
+  width: 50%;
+  float: right;
+}
+
+.ajusteimagen{
+  width: 30%;
+  float: right;
+}
+.ajusteimagen2{
+  width: 30%;
+}
+
+.publicidad1 {
+  float: right;
+  margin-top: 70px;
+  position: relative;
+  top: 25px;
+  right: 7px;
+  width: 17%;
+  height: 400px;
+}
+.publicidad2 {
+  margin-top: 70px;
+  position: relative;
+  top: 25px;
+  left: 7px;
+  width: 17%;
+  height: 400px;
+}
+.tamaño {
+  width: 100%;
+  height: 100%;
+}
+
+.indice {
+  border-bottom: 5px;
+  margin: auto 0 ;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+img .Mgato {
+  width: 60%;
+}
+
+img .Gdurmiendo {
+  width: 40%;
+}
+
+table, tr, th, td{
+  border: rgb(40, 22, 0) solid 2px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+ input[type=text], select, textarea {
+     width: 100%;
+     padding: 12px;
+     border: 1px solid #ccc;
+     margin-top: 6px;
+     margin-bottom: 16px;
+     resize: vertical
+ }
+
+ input[type=Enviar],  {
+   background-color: black;
+   color: red;
+   padding: 12px 20px;
+   border: none;
+ }
+
+ .contacto {
+     border-radius: 5px;
+     background-color: #c6be7b;
+     padding: 30px;
+ }

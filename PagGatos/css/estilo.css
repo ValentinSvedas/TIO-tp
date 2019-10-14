@@ -11,7 +11,7 @@ body {
 .cuerpo {
   width: 65%;
   margin: auto;
-  background-color: rgb(198, 190, 123);
+  background-color: rgb(207, 78, 46);
   padding: 15px 15px;
   border: 4px;
   border-color: black;
@@ -19,9 +19,7 @@ body {
   position: relative;
   margin-top: 50px
 }
-header{
 
-}
 img {
   width: 250px;
   height: 400px;
@@ -103,11 +101,11 @@ table, tr, th, td{
      resize: vertical
  }
 
- input[type=Enviar],  {
-   background-color: black;
-   color: red;
+ input[type=Enviar] {
+   background-color: rgb(94, 175, 41);
+   color: rgb(129, 29, 29);
    padding: 12px 20px;
-   border: none;
+   border: black 2px solid;
  }
 
  .contacto {
